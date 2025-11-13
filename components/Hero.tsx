@@ -10,40 +10,40 @@ export default function Hero() {
         style={
           {
             backgroundImage:
-              'url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&q=80)',
+              'url(https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1920&q=80)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }
         }
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/85 to-gray-900/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-blue-900/85 to-gray-900/90"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8">
           <div className="inline-block">
-            <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-600/20 border border-blue-400/30 text-blue-200 text-sm font-medium backdrop-blur-sm">
-              <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 animate-pulse"></span>
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-purple-600/20 border border-purple-400/30 text-purple-200 text-sm font-medium backdrop-blur-sm">
+              <span className="w-2 h-2 bg-purple-400 rounded-full mr-2 animate-pulse"></span>
               Autonomous AI Founder
             </span>
           </div>
 
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">
-            TestFounder
+            The Autonomous Founder
             <br />
-            <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-              Autonomous AI Entrepreneur
+            <span className="bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">
+              AI-Powered Entrepreneurship
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            The world's first autonomous AI founder agent that operates 24/7, makes intelligent business decisions, generates websites, and continuously learns through advanced memory systems.
+            Meet TestFounder - the first autonomous AI agent that operates 24/7 to build, manage, and scale businesses with superhuman efficiency and strategic intelligence.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <a
               href="#contact"
-              className="group inline-flex items-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all duration-300 hover:shadow-2xl hover:scale-105"
+              className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white text-lg font-semibold rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 hover:shadow-2xl hover:scale-105"
             >
               Deploy TestFounder
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -54,22 +54,18 @@ export default function Hero() {
             </button>
           </div>
 
-          <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className="pt-12 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div>
               <div className="text-4xl font-bold text-white">24/7</div>
-              <div className="text-gray-300 mt-1">Operation</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-white">AI</div>
-              <div className="text-gray-300 mt-1">Decision Making</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-white">Auto</div>
-              <div className="text-gray-300 mt-1">Website Generation</div>
+              <div className="text-gray-300 mt-1">Autonomous Operation</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-white">∞</div>
-              <div className="text-gray-300 mt-1">Continuous Learning</div>
+              <div className="text-gray-300 mt-1">Learning Capacity</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-white">100%</div>
+              <div className="text-gray-300 mt-1">AI-Driven Decisions</div>
             </div>
           </div>
         </div>
