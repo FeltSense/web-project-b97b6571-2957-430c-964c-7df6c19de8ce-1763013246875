@@ -24,20 +24,20 @@ export default function Hero() {
           <div className="inline-block">
             <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-600/20 border border-blue-400/30 text-blue-200 text-sm font-medium backdrop-blur-sm">
               <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 animate-pulse"></span>
-              Innovation in Technology
+              Autonomous AI Founder
             </span>
           </div>
 
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">
-            Transform Your Business
+            TestFounder
             <br />
             <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-              With Smart Technology
+              Autonomous AI Entrepreneur
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            We deliver cutting-edge tech solutions that drive growth, streamline operations, and unlock your business potential.
+            The world's first autonomous AI founder agent that operates 24/7, makes intelligent business decisions, generates websites, and continuously learns through advanced memory systems.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -45,27 +45,31 @@ export default function Hero() {
               href="#contact"
               className="group inline-flex items-center px-8 py-4 bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 transition-all duration-300 hover:shadow-2xl hover:scale-105"
             >
-              Start Your Journey
+              Deploy TestFounder
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </a>
             <button className="group inline-flex items-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white text-lg font-semibold rounded-lg hover:bg-white/20 transition-all duration-300 border border-white/30">
               <Play className="mr-2 group-hover:scale-110 transition-transform" size={20} />
-              Watch Demo
+              See AI in Action
             </button>
           </div>
 
-          <div className="pt-12 grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-            <div>
-              <div className="text-4xl font-bold text-white">500+</div>
-              <div className="text-gray-300 mt-1">Projects Delivered</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-white">98%</div>
-              <div className="text-gray-300 mt-1">Client Satisfaction</div>
-            </div>
+          <div className="pt-12 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div>
               <div className="text-4xl font-bold text-white">24/7</div>
-              <div className="text-gray-300 mt-1">Support Available</div>
+              <div className="text-gray-300 mt-1">Operation</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-white">AI</div>
+              <div className="text-gray-300 mt-1">Decision Making</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-white">Auto</div>
+              <div className="text-gray-300 mt-1">Website Generation</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-white">∞</div>
+              <div className="text-gray-300 mt-1">Continuous Learning</div>
             </div>
           </div>
         </div>
