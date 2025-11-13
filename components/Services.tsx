@@ -1,50 +1,50 @@
 'use client';
 
-import { Cloud, Shield, Zap, Code, Database, Users } from 'lucide-react';
+import { Clock, Brain, Globe, Zap, Target, Cpu } from 'lucide-react';
 
 export default function Services() {
   const services = [
     {
-      icon: Cloud,
-      title: 'Cloud Solutions',
+      icon: Clock,
+      title: '24/7 Autonomous Operation',
       description:
-        'Scalable cloud infrastructure that grows with your business. Deploy faster, scale smarter, and reduce costs with our managed cloud services.',
-      color: 'from-blue-500 to-blue-600',
-    },
-    {
-      icon: Shield,
-      title: 'Cybersecurity',
-      description:
-        'Enterprise-grade security solutions to protect your data and systems. Stay compliant and secure with 24/7 monitoring and threat prevention.',
-      color: 'from-green-500 to-green-600',
-    },
-    {
-      icon: Code,
-      title: 'Custom Development',
-      description:
-        'Tailored software solutions built specifically for your business needs. From web apps to mobile platforms, we bring your vision to life.',
+        'TestFounder never sleeps. Operating continuously around the clock, making strategic decisions, managing tasks, and scaling businesses while you focus on what matters most.',
       color: 'from-purple-500 to-purple-600',
     },
     {
-      icon: Database,
-      title: 'Data Analytics',
+      icon: Brain,
+      title: 'AI-Driven Entrepreneurship',
       description:
-        'Transform raw data into actionable insights. Make informed decisions with our advanced analytics and business intelligence solutions.',
+        'Advanced AI algorithms analyze market trends, identify opportunities, and execute business strategies with superhuman speed and precision.',
+      color: 'from-blue-500 to-blue-600',
+    },
+    {
+      icon: Globe,
+      title: 'Website Generation & Automation',
+      description:
+        'Instantly create professional websites, landing pages, and digital experiences. Automated deployment, optimization, and continuous improvement.',
+      color: 'from-green-500 to-green-600',
+    },
+    {
+      icon: Cpu,
+      title: 'Memory-Based Learning',
+      description:
+        'Persistent memory system that learns from every interaction, continuously improving performance and adapting to new challenges and opportunities.',
       color: 'from-orange-500 to-orange-600',
     },
     {
-      icon: Zap,
-      title: 'AI & Automation',
+      icon: Target,
+      title: 'Strategic Planning & Execution',
       description:
-        'Leverage artificial intelligence to automate workflows and boost efficiency. Save time and reduce errors with intelligent automation.',
-      color: 'from-yellow-500 to-yellow-600',
+        'Advanced task management and strategic planning capabilities. Set goals, create roadmaps, and execute complex business strategies autonomously.',
+      color: 'from-red-500 to-red-600',
     },
     {
-      icon: Users,
-      title: 'IT Consulting',
+      icon: Zap,
+      title: 'Business Process Automation',
       description:
-        'Strategic technology guidance from industry experts. Get personalized recommendations to optimize your IT infrastructure and processes.',
-      color: 'from-pink-500 to-pink-600',
+        'Automate repetitive tasks, streamline workflows, and optimize operations. From customer service to financial management, all handled intelligently.',
+      color: 'from-yellow-500 to-yellow-600',
     },
   ];
 
@@ -52,14 +52,14 @@ export default function Services() {
     <section id="services" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
-            OUR SERVICES
+          <span className="inline-block px-4 py-2 bg-purple-100 text-purple-600 rounded-full text-sm font-semibold mb-4">
+            AI CAPABILITIES
           </span>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Comprehensive Tech Solutions
+            Autonomous AI Founder Features
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From cloud infrastructure to AI automation, we provide everything your business needs to thrive in the digital age.
+            TestFounder combines advanced AI with entrepreneurial expertise to operate businesses autonomously, making intelligent decisions 24/7.
           </p>
         </div>
 
@@ -85,9 +85,9 @@ export default function Services() {
                 <div className="mt-6">
                   <a
                     href="#contact"
-                    className="inline-flex items-center text-blue-600 font-semibold group-hover:text-blue-700 transition-colors"
+                    className="inline-flex items-center text-purple-600 font-semibold group-hover:text-purple-700 transition-colors"
                   >
-                    Learn More
+                    Explore Feature
                     <svg
                       className="ml-2 group-hover:translate-x-1 transition-transform"
                       width="16"
