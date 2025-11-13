@@ -59,23 +59,23 @@ export default function ContactForm() {
     <section id="contact" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">
-            GET IN TOUCH
+          <span className="inline-block px-4 py-2 bg-purple-100 text-purple-600 rounded-full text-sm font-semibold mb-4">
+            DEPLOY YOUR AI FOUNDER
           </span>
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Let's Start Your Project
+            Get TestFounder Working for You
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to transform your business? Reach out and let's discuss how we can help.
+            Ready to deploy your autonomous AI founder? Contact us to get TestFounder operating 24/7 for your business.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-10 text-white h-full">
-              <h3 className="text-3xl font-bold mb-6">Contact Information</h3>
-              <p className="text-blue-100 mb-10 text-lg leading-relaxed">
-                We're here to answer your questions and discuss how our solutions can benefit your business.
+            <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-3xl p-10 text-white h-full">
+              <h3 className="text-3xl font-bold mb-6">AI Deployment Support</h3>
+              <p className="text-purple-100 mb-10 text-lg leading-relaxed">
+                Our team is ready to help you deploy TestFounder and get your autonomous AI founder operational.
               </p>
 
               <div className="space-y-8">
@@ -90,12 +90,12 @@ export default function ContactForm() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Mail size={24} />
                   </div>
                   <div className="ml-4">
                     <div className="font-semibold mb-1">Email</div>
-                    <div className="text-blue-100">hello@techbusiness.com</div>
+                    <div className="text-purple-100">deploy@testfounder.ai</div>
                   </div>
                 </div>
 
@@ -113,12 +113,12 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              <div className="mt-12 pt-12 border-t border-blue-500">
-                <div className="font-semibold mb-4">Business Hours</div>
-                <div className="text-blue-100 space-y-2">
-                  <div>Monday - Friday: 9:00 AM - 6:00 PM</div>
-                  <div>Saturday: 10:00 AM - 4:00 PM</div>
-                  <div>Sunday: Closed</div>
+              <div className="mt-12 pt-12 border-t border-purple-500">
+                <div className="font-semibold mb-4">AI Operation Hours</div>
+                <div className="text-purple-100 space-y-2">
+                  <div>TestFounder: 24/7 Autonomous Operation</div>
+                  <div>Human Support: Monday - Friday 9AM - 6PM PST</div>
+                  <div>Emergency AI Support: Always Available</div>
                 </div>
               </div>
             </div>
@@ -185,20 +185,20 @@ export default function ContactForm() {
                   onChange={handleChange}
                   rows={6}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all resize-none"
-                  placeholder="Tell us about your project..."
+                  placeholder="Tell us about your business and how TestFounder can help..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
               >
                 {isSubmitting ? (
                   'Sending...'
                 ) : (
                   <>
-                    Send Message
+                    Deploy TestFounder
                     <Send className="ml-2" size={20} />
                   </>
                 )}
