@@ -16,8 +16,8 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { href: '#services', label: 'Services' },
-    { href: '#team', label: 'Team' },
+    { href: '#services', label: 'AI Capabilities' },
+    { href: '#features', label: 'Features' },
     { href: '#pricing', label: 'Pricing' },
     { href: '#contact', label: 'Contact' },
   ];
@@ -32,13 +32,13 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">T</span>
               </div>
               <span className={`text-xl font-bold ${
                 isScrolled ? 'text-gray-900' : 'text-white'
               }`}>
-                TechBusiness
+                TestFounder
               </span>
             </a>
           </div>
@@ -59,9 +59,9 @@ export default function Navigation() {
             ))}
             <a
               href="#contact"
-              className="bg-blue-600 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-blue-700 transition-all duration-300 hover:shadow-lg"
+              className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2.5 rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all duration-300 hover:shadow-lg"
             >
-              Get Started
+              Deploy AI
             </a>
           </div>
 
@@ -93,10 +93,10 @@ export default function Navigation() {
             ))}
             <a
               href="#contact"
-              className="block mt-4 bg-blue-600 text-white px-6 py-2.5 rounded-lg font-medium text-center"
+              className="block mt-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2.5 rounded-lg font-medium text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Get Started
+              Deploy AI
             </a>
           </div>
         )}
